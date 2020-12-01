@@ -1,0 +1,3 @@
+To explore object files, you may use:
+- nm on Linux/macOs X;
+- dumpbin /all on Windows.
