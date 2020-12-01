@@ -1,0 +1,16 @@
+C++11 final draft - n3797
+
+3.5 Program and linkage [basic.link]
+(4) An unnamed namespace or a namespace declared directly or indirectly within an unnamed namespace has
+internal linkage. All other namespaces have external linkage. A name having namespace scope that has not
+been given internal linkage above has the same linkage as the enclosing namespace if it is the name of
+- a variable; or
+- a function; or
+- a named class (Clause 9), or an unnamed class defined in a typedef declaration in which the class has
+the typedef name for linkage purposes (7.1.3); or
+- a named enumeration (7.2), or an unnamed enumeration defined in a typedef declaration in which the
+enumeration has the typedef name for linkage purposes (7.1.3); or
+- an enumerator belonging to an enumeration with linkage; or
+- a template.
+
+C++14 final draft - N3936 and C++17 draft n4713 - the same under [basic.link] section.
